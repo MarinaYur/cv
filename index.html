@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CV of Marina Yurkevich</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="./assets/icons8-cv-16.png">
     <link rel="stylesheet" href="index.css">
   </head>
   <body class="container">
@@ -15,7 +16,7 @@
           <li class="nav-item">
             <a href="#summary" class="nav-link">Summary</a>
           </li>
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <!-- <li class="nav-item"><a href="#code" class="nav-link">Code</a></li> -->
           <li class="nav-item">
             <a href="#skills" class="nav-link">Skills</a>
           </li>
@@ -26,42 +27,52 @@
             <a href="#education" class="nav-link">Education</a>
           </li>
           <li class="nav-item">
+            <a href="#certificates" class="nav-link">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
             <a href="#languages" class="nav-link">Languages</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Yurkevich Marina</h1>
+      <h1>Marina Yurkevich</h1>
       <div class="photo">
-        <img src="images/photo.jpeg" alt="avatar" height="200">
+        <img src="images/photo.jpg" alt="avatar" height="200">
       </div>
-      <div class="contacts">
+      <section class="contacts section">
         <h2 id="contacts">Contact Info</h2>
         <ul>
           <li>phone №: +375(25) 931 78 34</li>
           <li>e-mail: marina.yurkev@gmail.com</li>
+          <li><a href="https://github.com/MarinaYur">GitHub MarinaYur</a></li>
         </ul>
-      </div>
-      <h2 id="summary">Summary</h2>
-      <p>
-        Some years worked as Leading economist.Since I realized that in this
-        position I did not satisfy my creative ambitions, I began to look for
-        activities that I would like. My desire is to realize myself in the
-        field of activity that interests me. Namely in programming. By nature,I
-        can learning that interests me myself. And I know how to do it. Immersed
-        in programming. I enjoy learning.I really want to reach the level where
-        I can work already in a realproject as a part of team.
-      </p>
-      <h2 id="skills">Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Figma</li>
-        <li>Git, GitHub</li>
-      </ul>
+      </section>
+      <section class="summary section">
+        <h2 id="summary">Summary</h2>
+        <p>
+          An aspiring web developer with strong skills in HTML, CSS, SCSS, JavaScript and TypeScript,
+          looking to apply my knowledge to develop intuitive and adaptive user interfaces.
+          I have experience working on several training projects and am willing to grow and develop in a team of professionals.
+          I studied to work as a programmer, but became a leading economist ))).
+          Later I started to do programming for myself.
+          It turned out to be more interesting than the previous activity. It will be great if I will be taken into the team.
+        </p>
+      </section>
+      <section class="skills section">
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li><p>Programming languages:</p> JavaScript, TypeScript</li>
+          <li><p>Layout and styles:</p> HTML5, CSS3, SCSS</li>
+          <li><p>Tools and technologies:</p> Git, Webpack, Figma, Husky, ESLint, Prettier, Node.js, as a basic understanding of server-side JavaScript development</li>
+          <li><p>Working with APIs:</p> Creating requests and processing data</li>
+          <li><p>Frameworks and libraries:</p> React</li>
+        </ul>
+      </section>
+      <!-- <section class="example section">
       <h2 id="code">Code Example</h2>
       <pre>
             <code>
@@ -85,18 +96,69 @@
               }
             </code>
       </pre>
+    </section> -->
+    <section class="projects section">
       <h2 id="projects">Projects</h2>
       <ul class="projects">
         <li>
           <a class="" href="https://marinayur.github.io/rsschool-cv/"
             >My CV Project</a
           >
+          <li>
+            <a href="https://marinayur.github.io/Nonograms/nonograms/index.html">Nonograms</a>
+            <p>All necessary elements of main block are generated using JS, used SCSS, ESLint. Responsive, Adaptive design</p>
+          </li>
+          <li>
+            <a href="https://marinayur.github.io/English-learning-puzzle-game/">English learning (puzzle game)</a>
+            <p>All necessary elements are generated using TS, used Webpack, Prettier, ESLint, Husky</p>
+          </li>
+          <li>
+            <a href="https://marinayur.github.io/Hangman/Hangman/index.html">Hangman</a>
+            <p>All necessary elements are generated using JS, used SCSS, ESLint. Responsive, adaptive design </p>
+          </li>
+          <li>
+            <a href=" https://marinayur.github.io/Coffee-House/Coffee-House/pages/home/home.html">Coffee-House</a>
+            <p>Website layout based on the technical specifications and design mockup, used SCSS, JS. Responsive, adaptive design</p>
+          </li>
+          <li>
+            <a href="https://marinayur.github.io/Shelter/shelter/src/pages/pets/pets.html">Shelter</a>
+            <p>Website layout based on the technical specifications and design mockup, used SCSS, JS. Responsive, adaptive design</p>
+          </li>
+           <li>
+            <a href=" https://marinayur.github.io/Audio-player/audio-player/index.html">Audio-player</a>
+            <p>My design and the implementation concept derived from the technical specifications. HTML, SCSS, JS. Responsive design</p>
+          </li>
+          <li>
+            <a href="https://marinayur.github.io/cssMemeSlider/cssMemeSlider/index.html">cssMemeSlider</a>
+            <p>The slider functionality is implemented using only CSS. Responsive, adaptive design</p>
+          </li>
         </li>
       </ul>
-      <h2 id="education">Education</h2>
-      <p>Belarusian State Academy of Communications</p>
+    </section>
+    <section id="education" class="education section">
+      <h2>Education</h2>
+      <p>Belarusian State Academy of Communications, 2004 - 2011</p>
+    </section>
+    <section id="certificates" class="certificates section">
+      <h2 >Certificates</h2>
+        <ul>
+          <li>JS/FE Pre-School 2024Q2(javascript), The Rolling Scopes School, oct 28 2024
+          </li>
+          <li>React 2021 Q1 (javascript), The Rolling Scopes School, may 03 2021</li>
+        </ul>
+      </section>
+      <section class="courses section">
+        <h2 id="courses">Courses</h2>
+        <div class="courses-container">
+          <p>2023 - 2024</p>
+          <p>The Rolling Scopes School, JavaScript/Front-end 2023Q4</p>
+      </div>
+    </section>
+    <section class="languages section">
       <h2 id="languages">Languages</h2>
+      <p>Russian</p>
       <p>English: Pre-Intermediate</p>
+    </section>
     </main>
     <footer>
       <a class="footer__nick" href="https://github.com/MarinaYur"></a>

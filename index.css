@@ -1,3 +1,7 @@
+.section:hover {
+  background-color: #d7edf7;;
+}
+
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -6,11 +10,11 @@
 }
 
 .nav-list li a {
-  color: #358ae4;
+  color: #083e79;
 }
 
 .nav-list li a:hover {
-  color: #083e79;
+  color: #358ae4;
 }
 
 pre {
@@ -19,6 +23,10 @@ pre {
 
 h1 {
   text-align: center;
+}
+
+h2 {
+  color: #003366;
 }
 
 .photo {
@@ -34,12 +42,27 @@ h2 {
   display: inline-block;
 }
 
+.contacts a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: #358ae4;
+}
+
 .container {
   max-width: 1024px;
   padding-right: 15px;
   padding-left: 15px;
   margin: auto;
   font-size: 1.3em;
+  background-color: #E6F7FF;
+}
+
+.skills p {
+  font-weight: 600;
 }
 
 footer {
@@ -74,11 +97,33 @@ footer p {
   transition: all 0.3s ease;
 }
 
+.projects li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(136, 135, 135);
+}
+
 .projects li a {
   color: #000000;
+  font-weight: 600;
   text-decoration: none;
+}
+
+.projects li p {
+  color: rgb(107, 104, 104);
+  flex-basis: 60%;
 }
 
 .projects li a:hover {
   color: #358ae4;
+}
+
+.courses-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.courses-container p:first-child {
+  flex-basis: 15%;
 }
