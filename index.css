@@ -43,9 +43,9 @@ h2 {
 }
 
 .contacts a {
-  color: #000000;
+  color: #003366;
   font-weight: 600;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .contacts a:hover {
@@ -105,12 +105,16 @@ footer p {
 }
 
 .projects li a {
-  color: #000000;
-  font-weight: 600;
-  text-decoration: none;
+  color: #003366;
+  /* font-weight: 600; */
+  /* text-decoration: none; */
 }
 
-.projects li p {
+.projects li a:last-child {
+  /* color: #2864a1; */
+}
+
+.projects li p:last-child {
   color: rgb(107, 104, 104);
   flex-basis: 60%;
 }
@@ -119,11 +123,16 @@ footer p {
   color: #358ae4;
 }
 
-.courses-container {
+.courses-container,
+.project-repo {
   display: flex;
   /* justify-content: space-between; */
 }
 
 .courses-container p:first-child {
   flex-basis: 15%;
+}
+
+.project-repo {
+  flex-direction: column;
 }
