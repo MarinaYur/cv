@@ -42,19 +42,23 @@
   </header>
   <main>
     <h1>Marina Yurkevich</h1>
-    <div class="photo">
-      <img src="images/photo.jpg" alt="avatar" height="200" />
+    <div class="photo-contacts">
+      <section>
+        <div class="photo">
+          <img src="images/photo.jpg" alt="photo" height="200" />
+        </div>
+      </section>
+      <section class="contacts section">
+        <!-- <h2 id="contacts">Contact Info</h2> -->
+        <ul>
+          <li>phone: +375(25) 931 78 34</li>
+          <li>e-mail: marina.yurkev@gmail.com</li>
+          <li>
+            <span>GitHub:</span><a href="https://github.com/MarinaYur"> MarinaYur</a>
+          </li>
+        </ul>
+      </section>
     </div>
-    <section class="contacts section">
-      <h2 id="contacts">Contact Info</h2>
-      <ul>
-        <li>phone: +375(25) 931 78 34</li>
-        <li>e-mail: marina.yurkev@gmail.com</li>
-        <li>
-          <span>GitHub:</span><a href="https://github.com/MarinaYur"> MarinaYur</a>
-        </li>
-      </ul>
-    </section>
     <section class="summary section">
       <h2 id="summary">Summary</h2>
       <p>
@@ -74,41 +78,15 @@
           understanding of server-side JavaScript development
         </li>
         <li>Creating requests and processing data</li>
-        <!-- <li><p>Frameworks and libraries:</p> React</li> -->
       </ul>
     </section>
-    <!-- <section class="example section">
-      <h2 id="code">Code Example</h2>
-      <pre>
-            <code>
-        function order(words){
-          let input = [];
-          words = words.split(' ');
-          for (let i = 0; i &lt; words.length; i ++) {
-          let number = words[i].replace(/[^\d]/gi, '');
-          input[number] = words[i];
-          console.log(number);
-        }
-             console.log(input.join(' '));
-            return input.join(' ').trim();
-          }
-            </code>
-            <code>
-            function squareDigits(num){
-                return + String(num).split('')
-                .map(item => item * item).
-                join('');
-              }
-            </code>
-      </pre>
-    </section> -->
     <section class="projects section">
       <h2 id="projects">Projects</h2>
       <ul class="projects">
         <li>
           <div class="project-repo">
             <a href="https://marinayur.github.io/Nonograms/nonograms/index.html">Nonograms (deploy)</a>
-            <a href=">https://github.com/MarinaYur/Nonograms">Nonograms (source code)</a>
+            <a href="https://github.com/MarinaYur/Nonograms">Nonograms (source code)</a>
           </div>
           <p>
             All necessary elements of main block are generated using JS, used
