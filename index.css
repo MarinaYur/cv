@@ -1,0 +1,132 @@
+.container {
+  max-width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  font-size: 1.3em;
+  background-color: #E6F7FF;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.nav-list li a {
+  color: #083e79;
+}
+
+.nav-list li a:hover {
+  color: #358ae4;
+}
+
+pre {
+  background-color: #dce1e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #003366;
+}
+
+.section:hover {
+  background-color: #d7edf7;;
+}
+
+
+.photo {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.contacts a {
+  color: #003366;
+  font-weight: 600;
+}
+
+.contacts a:hover {
+  color: #358ae4;
+}
+
+.skills p {
+  font-weight: 600;
+}
+
+.projects li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(136, 135, 135);
+}
+
+.projects li a {
+  color: #003366;
+}
+
+.projects li p:last-child {
+  color: rgb(107, 104, 104);
+  flex-basis: 60%;
+}
+
+.projects li a:hover {
+  color: #358ae4;
+}
+
+.courses-container,
+.project-repo,
+.photo-contacts {
+  display: flex;
+}
+
+.courses-container p:first-child {
+  flex-basis: 15%;
+}
+
+.project-repo {
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
+  border-top: 1px solid #000000;
+}
+
+footer p {
+  font-weight: 600;
+}
+
+.footer__logo {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: center / contain no-repeat url("./images/rss-logo.svg");
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px #1c2733) brightness(0.6);
+  transition: all 0.3s ease;
+}
+
+.footer__nick {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background: center / contain no-repeat url("./images/git-hub-logo.png");
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px #1c2733) brightness(0.6);
+  transition: all 0.3s ease;
+}
